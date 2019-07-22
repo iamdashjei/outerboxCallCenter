@@ -3,10 +3,20 @@
     <ion-menu type="overlay">
       <ion-header>
         <ion-toolbar>
-          <ion-title>Menu</ion-title>
+          <ion-title>LifeSaver</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-content>
+       <ion-item>
+              <ion-avatar item-left>
+                <img src="https://images.unsplash.com/photo-1541028466927-aa1205f96603?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" />
+              </ion-avatar>
+              &nbsp;&nbsp;&nbsp;
+              <ion-text>
+                  <p>Jovs Aquino Pangan</p>
+              </ion-text>
+              
+            </ion-item>
         <ion-list>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
             <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">

@@ -16,9 +16,29 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'Calls',
       url: '/list',
-      icon: 'list'
+      icon: 'call'
+    },
+    {
+      title: 'Emergency Map',
+      url: '/map',
+      icon: 'map'
+    },
+    {
+      title: 'Channels',
+      url: '/channels',
+      icon: 'chatboxes'
+    },
+    {
+      title: 'Inbox',
+      url: '/messages',
+      icon: 'mail'
+    },
+    {
+      title: 'Settings',
+      url: '/settings',
+      icon: 'cog'
     }
   ];
 

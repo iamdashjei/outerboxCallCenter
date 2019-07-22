@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'channels', loadChildren: './channels/channels.module#ChannelsPageModule' },
+  { path: 'map', loadChildren: './map/map.module#MapPageModule' },
+  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
+  { path: 'messages', loadChildren: './messages/messages.module#MessagesPageModule' }
 ];
 
 @NgModule({
